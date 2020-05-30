@@ -1,5 +1,7 @@
 class User {
     public username: string;
+
+    //readonly same as final: have one chance to set then it's const
     private readonly email: string;
     protected age: number;
 
